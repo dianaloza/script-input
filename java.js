@@ -3,6 +3,7 @@ const btnAgregar = document.getElementById("btnAgregar");
 const btnSumatoria = document.getElementById("btnSumatoria");
 
 let suma = 0;
+console.log(suma);
 
 function agregar() {
   const inputValue = document.getElementById("inputNumero").value;
